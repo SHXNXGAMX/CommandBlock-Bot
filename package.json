@@ -1,0 +1,33 @@
+{
+  "name": "commandblock",
+  "version": "0.0.1-alpha",
+  "description": "None",
+  "main": "src/index.js",
+  "repository": "git@github.com:SHXNXGAMX/CommandBlock-Bot.git",
+  "author": "SHXNXGAMX",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start:dev": "ts-node-dev src/index.ts",
+    "start:prod": "node build/index.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "eslint src/index.ts",
+    "lint:fix": "eslint src/index.ts --fix"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/node": "^18.14.6",
+    "eslint": "^8.35.0",
+    "nodemon": "^2.0.21",
+    "prettier": "^2.8.4",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "glob": "^8.1.0"
+  }
+}

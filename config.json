@@ -1,0 +1,8 @@
+{
+	"commands": {
+		"global": false,
+		"local": false
+	},
+	"events": "all",
+	"launchMode": "develop" 
+}
